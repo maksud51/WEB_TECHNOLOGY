@@ -1,0 +1,46 @@
+[
+  {
+    "NAME": "Package 1",
+    "SPEED": "5MBPS",
+    "TIME": "12 Hour",
+    "CABLE": "TWISTED",
+    "SERVER": "12 Hour",
+    "OFFER": "NO OFFER",
+    "AREA": "RURAL",
+    "CHARGE": "500",
+    "id": 1
+  },
+  {
+    "NAME": "Package 2",
+    "SPEED": "15MBPS",
+    "TIME": "12 Hour",
+    "CABLE": "FIBRE",
+    "SERVER": "24 Hour",
+    "OFFER": "10000 min Voice call",
+    "AREA": "City",
+    "CHARGE": "1000",
+    "id": 2
+  },
+  {
+    "NAME": "Package 3",
+    "SPEED": "20MBPS",
+    "TIME": "24 Hour",
+    "CABLE": "FIBRE",
+    "SERVER": "24 Hour",
+    "OFFER": "2000min talktime 1000 SMS Free",
+    "AREA": "City",
+    "CHARGE": "2000",
+    "id": 3
+  },
+  {
+    "NAME": "Package 4 ",
+    "SPEED": "5MBPS",
+    "TIME": "12 Hour",
+    "CABLE": "FIBRE",
+    "SERVER": "24 Hour",
+    "OFFER": "no offer",
+    "AREA": "City",
+    "CHARGE": "800",
+    "id": 4
+  }
+]
