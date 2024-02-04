@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body style="background-color:LightGray;">
+
+
+	<h1>Registration Form</h1>
+
+		<fieldset style="border:2px solid DodgerBlue;">
+		<legend style="border:2px solid Tomato;">Basic information </legend>
+		
+			First Name: <input type="text" name="firstname">
+			<br>
+			<br>
+			Last Name: <input type="text" name="lastname">
+			<br>
+			<br>
+			Gender: 
+			<input type="radio" name="gender" value="male">Male
+			<input type="radio" name="gender" value="female">Female
+			<input type="radio" name="gender" value="other">Other
+			<br>
+			<br>		
+			Dob:
+			<input type="date"  name="Dob">
+			<br>
+			<br>
+			Religion: 
+			<select name="Religion">
+				<option value="Islam">Islam</option>
+				<option value="Hindu">Hindu</option>
+				<option value="Christianity">Christianity</option>
+				<option value="Others">Others</option>
+			</select>
+			<br>
+			<br>			
+		</fieldset>
+		<fieldset style="color:MediumSeaGreen;">
+		<legend style="border:2px solid Violet;">Contact Information</legend>
+		Present Address: 
+		<textarea  name="Present Address" form="Registration_form">Enter text here...</textarea>
+		<br>
+		<br>
+		Permanent Address: 
+		<textarea  name="Permanent Address" form="Registration_form">Enter text here...</textarea>
+		<br>
+		<br>
+		Phone:
+		<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{8}">
+		<br>
+		<br>
+		Email:
+		<input type="Email" id="Email" name="Email">
+		<br>
+		<br>
+		Personal Website:
+		<input type="url"  name="Personal Website">
+		<br>
+		<br>
+		</fieldset>
+		<input type="submit" name="submit" value="submit">
+
+	</form>
+
+</body>
+</html>
