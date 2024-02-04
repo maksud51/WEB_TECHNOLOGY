@@ -1,0 +1,13 @@
+<?php
+session_start();
+/*if(count($_SESSION)===0)
+ {
+	header("Location:../VIEW/LOG_IN.php");
+ }
+ else
+ {*/
+	session_unset();
+	session_destroy();
+	header("Location:../VIEW/LOG_IN.php");
+ //}
+?>
