@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.dropbtn {
+  background-color: #8CE5E5;
+  border-radius: 25px;
+  color: white;
+  padding: 6px;
+  font-size: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 130px;
+  box-shadow: 0px 6px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #38B6B6;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #38B6B6;
+   border-radius: 25px;
+}
+
+
+
+img {
+  border-radius: 8px;
+    float:right 20px;
+
+}
+
+#example2 {
+  padding: 25px;
+  background: url(Speed_test.JPG);
+  left: 20px;
+  padding-left: 20px;
+  background-repeat: no-repeat;
+  background-size: 700px 350px;
+  background-position: center top;
+}
+
+input {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 2px 0;
+  box-sizing: border-box;
+  border: none;
+  margin-left:600px ;
+  text-align: left;
+}
+
+input[type=text] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid red;
+  margin-left:600px ;
+  text-align: left;
+}
+
+input[type=submit] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 2px 0;
+  box-sizing: border-box;
+  border: none;
+  margin-left:600px ;
+  text-align: left;
+}
+
+#example1 {
+  padding: 50px;
+  background: url(Login.jpg);
+  left: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: 500px 400px;
+  background-position: left ;
+}
+
+#exam {
+  padding: 50px;
+  background: url(Login.jpg);
+  left: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: 500px 400px;
+  background-position: left ;
+}
+
+
+#LB {
+  padding: 50px;
+  background: url(Login_background.jpg);
+  left: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: 200px 80px;
+  background-position: center top ;
+}
+<!--Text_Box_Text design-->
+TBT
+{
+	margin-left:600px;
+}
+#table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#table td, #table th {
+  border: 3px solid #black;
+  padding: 8px;
+}
+
+#table tr:nth-child(even){background-color: #f2f2f2;}
+
+#table tr:hover {background-color: #black;}
+
+#table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+</style>
+</head>
+</html>
+

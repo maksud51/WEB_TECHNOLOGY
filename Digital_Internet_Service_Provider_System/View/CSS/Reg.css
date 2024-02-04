@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#example1 {
+  padding: 5px;
+  background: url(Speed_test.JPG);
+  left: 20px;
+  padding-left: 20px;
+  background-repeat: no-repeat;
+  background-size: 700px 350px;
+  background-position: center top;
+}
+#example2 {
+  background: url(Registration.jpg);
+  left: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: 800px 550px;
+  background-position: left ;
+}
+input  {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 4px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid red;
+  margin-left:900px ;
+  margin-right:800px ;
+  margin-top:5px ;
+  text-align: left;
+}
+input  [type=radio]{
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid red;
+  margin-left:900px ;
+  margin-right:800px ;
+  margin-top:5px ;
+  text-align: left;
+}
+input  [type=submit]{
+  width: 5%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid red;
+  margin-left:900px ;
+  margin-right:1000px ;
+  margin-top:5px ;
+  text-align: left;
+}
+
+i{
+
+  margin-left:900px;
+}
+div.def{
+  position: relative;
+  width: 700px;
+  height: 300px;
+  /*border:  3px solid #73AD21;*/
+}
+div.abc{
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  width: 300px;
+  height: 200px;
+ /* border:  3px solid #73AD21;*/
+}
+</style>
+</head>
+</html>
