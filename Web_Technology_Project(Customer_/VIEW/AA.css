@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+#example2 {
+  padding: 25px;
+  background: url(Speed_test.JPG);
+  left: 20px;
+  padding-left: 20px;
+  background-repeat: no-repeat;
+  background-size: 700px 350px;
+  background-position: center top;
+}
+#example3 {
+  padding: 50px;
+  background: url(Pay_in.png);
+  left: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: 500px 400px;
+  background-position: left ;
+}
+input[type=text] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid blue;
+  margin-left:700px ;
+  margin-right:900px ;
+  text-align: left;
+}
+
+
+</style>
+</head>
+</html>
+
